@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	font-family: arial;
+}
+header img {
+	float: left;
+}
+header h1{
+	float: right;
+	font-size: 10px;
+	
+	color: #000000;
+}
+header {
+	
+	padding: 40px;
+}
+nav{
+	background: #120575;
+	overflow: hidden;
+}
+nav a{
+	border-width: 40px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	float: left;
+}
+nav a:hover{
+	color: red;
+}
+main{
+	
+	background-color: #ffffff;
+}
+main section{
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 30%;
+}
+main section h1 p{
+
+	float: left;
+}
+main section h1{
+	text-transform: uppercase;
+	color: #120575;
+	
+}
+table{
+	width: 90%;
+}
+table, th, td{
+	border: 0px solid whitesmoke;
+
+}
+th, td{
+	padding: 5px;
+}
+th{
+	color: #fcfcfa;
+	background-color: #120575;
+}
+td{
+	background-color: #ddd;
+}
+div{
+	position: relative;
+            padding: 10px 10px 10px 10px;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background: grey;
+            opacity: 60%;
+}
